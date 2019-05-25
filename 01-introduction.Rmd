@@ -99,7 +99,7 @@ There are many concepts and skills that are language agnostic. Much of the knowl
 
 ## Cross-transferable skills for efficiency
 
-The meaning of 'efficient R code', as opposed to generic 'efficient code', should be clear from for the preceding two sections. However, that does not mean that the skills and concepts covered in this book are not transferable to other languages and non-programming tasks. Likewise working on these *cross-transferable* skills will improve your R programming (as well as other aspects of your working life). Two of these skills are especially important: touch typing and use of a consistent style.
+The meaning of 'efficient R code', as opposed to generic 'efficient code', should be clear from the preceding two sections. However, that does not mean that the skills and concepts covered in this book are not transferable to other languages and non-programming tasks. Likewise working on these *cross-transferable* skills will improve your R programming (as well as other aspects of your working life). Two of these skills are especially important: touch typing and use of a consistent style.
 
 ### Touch typing
 
@@ -156,9 +156,9 @@ The results summarise how long each query took: the minimum (`min`), lower and u
 
 When using `microbenchmark()`, you should pay careful attention to the units. In the above example, each function call takes approximately 20 _microseconds_, implying around 50,000 function calls could be done in a second. When comparing quick functions, the standard units are:
 
-  * milliseconds (ms), one thousand functions takes a second;
+  * milliseconds (ms), one thousand function calls takes a second;
   * microseconds ($\mu$s),  one million function calls takes a second;
-  * nanoseconds  (ns), one billion calls takes a second.
+  * nanoseconds  (ns), one billion function calls takes a second.
 
 We can set the units we want to use with the `unit` argument, e.g. the results are reported
 in seconds if we set `unit = "s"`.
